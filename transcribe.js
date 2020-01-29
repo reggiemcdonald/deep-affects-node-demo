@@ -1,3 +1,6 @@
+/*
+ * Snippet adapted from https://docs.deepaffects.com/docs/speaker-diarization-api.html
+ */
 const request = require("request");
 const fs = require('fs');
 
@@ -13,7 +16,7 @@ const options = {
         encoding: 'M4A',
         languageCode: 'en-US',
         content: fs.readFileSync('Meeting-Jan26.m4a').toString('base64'),
-        sampleRate: 8000,
+        sampleRate: 8000, /* To confirm  */
         enableSpeakerDiarization: true,
         enablePunctuation: true,
         audioType: "callcenter"

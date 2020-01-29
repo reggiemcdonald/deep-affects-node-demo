@@ -1,7 +1,7 @@
 /**
  * To use this you must edit the case switch in node_modules/deep-affects/src/model/utils
  * to have a case for M4A ... -.-
- * @type {*}
+ * Snipped adapted from https://docs.deepaffects.com/docs/speaker-diarization-api.html
  */
 
 const DeepAffects = require("deep-affects");
